@@ -1,0 +1,14 @@
+include:  import library
+if:       cau lenh dieu khien
+while:    vong lap voi dieu kien
+for:      vong lap da nang
+ifndef:   kiem tra xem da define mot gia tri nao hay chua
+endif:    ket thuc viec kiem tra( chi dung trong chi thi tien xu ly)
+end:      mot so phuong thuc cua cac colection class
+map:      cay nhi phan can bang
+iostream: thu vien xu ly nhap xuat
+define:   dinh nghia mot marco hoac hang so
+vector:   class vector trong std c++
+continue: tiep tuc vong lap
+break:    jump anywhere
+delete:   lenh xoa vung nho tren heap
