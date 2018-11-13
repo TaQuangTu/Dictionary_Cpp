@@ -4,6 +4,7 @@
 #endif
 #include <utility>
 using namespace std;
+//for inserting word and relative definition into tree
 class InputProcesser   
 {
 public:

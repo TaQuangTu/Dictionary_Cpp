@@ -86,7 +86,7 @@ public:
 		tempNode->setEnd();
 	}
 
-	/** Returns if the word is in the trie. */
+	//Returns if the word is in the trie. 
 	bool search(string word) {
 		TrieNode* tempNode = mRoot;
 		for (int i = 0; i < word.size(); i++)
@@ -101,7 +101,7 @@ public:
 		return false;
 	}
 
-	/** Returns if there is any word in the trie that starts with the given prefix. */
+	//Returns if there is any word in the trie that starts with the given prefix. 
 	bool startsWith(string word) {
 		TrieNode* tempNode = mRoot;
 		for (int i = 0; i < word.size(); i++)
@@ -114,6 +114,7 @@ public:
 		}
 		return true;
 	}
+	//return vector of relative keywords with the prefix
 	vector<string> getAllWordWithPrefix(string prefix)
 	{
 		vector<string> results;

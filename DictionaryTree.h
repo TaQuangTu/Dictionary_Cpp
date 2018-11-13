@@ -18,7 +18,9 @@ private:
 		while (getline(file, line, '\n'))
 		{
 			pair<string, string> wordAndDefinition = InputProcesser::split(line);
+			//get word from line
 			string word = wordAndDefinition.first;
+			//get definition from line
 			string definition = wordAndDefinition.second;
 			trie.insert(word);
 			hashTable[word] = definition;

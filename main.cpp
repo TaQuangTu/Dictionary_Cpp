@@ -7,7 +7,7 @@ int main()
 	while (prefix!="exit")
 	{
 		cout << "===================_TYPE_KEYWORD_(TYPE_exit_TO_CLOSE)_======================\n";
-		cout << "May muon tim chu gi: ";
+		cout << "Find keyword with prefix: ";
 		cin >> prefix;
 		if (prefix != "exit")
 		{
