@@ -17,10 +17,17 @@ public:
 			links[i] = NULL;
 		}
 	}
+	//get branch i'th
 	TrieNode* get(int i)
 	{
 		return links[i];
 	}
+	//get branch that points to character ch
+	TrieNode* get(char ch)
+	{
+		return links[ch - 'a'];
+	}
+	//check whether the node contains the key ch
 	bool containsKey(char ch)
 	{
 		return links[ch - 'a'] != NULL;
@@ -29,17 +36,15 @@ public:
 	{
 		links[ch - 'a'] = new TrieNode();
 	}
+	//set end at the node that contains the end character of a word
 	void setEnd()
 	{
 		isEnd = true;
 	}
+	//check whether the node contains the end character of a word
 	bool endOfWord()
 	{
 		return isEnd;
-	}
-	TrieNode* get(char ch)
-	{
-		return links[ch - 'a'];
 	}
 };
 class Trie {
@@ -66,7 +71,7 @@ public:
 	{
 		mRoot = new TrieNode();
 	}
-	/** Inserts a word into the trie. */
+	// Inserts a word into the trie
 	void insert(string word)
 	{
 		TrieNode* tempNode = mRoot;

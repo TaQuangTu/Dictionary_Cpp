@@ -2,7 +2,7 @@
 #include<fstream>
 #include<unordered_map>
 #include<string>
-#include"SentenceProcessor.h"
+#include"InputProcessor.h"
 #include<iostream>
 using namespace std;
 class DictionaryTree
@@ -17,7 +17,7 @@ private:
 		string line;
 		while (getline(file, line, '\n'))
 		{
-			pair<string, string> wordAndDefinition = SP::split(line);
+			pair<string, string> wordAndDefinition = InputProcesser::split(line);
 			string word = wordAndDefinition.first;
 			string definition = wordAndDefinition.second;
 			trie.insert(word);

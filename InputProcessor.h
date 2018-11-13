@@ -4,7 +4,7 @@
 #endif
 #include <utility>
 using namespace std;
-class SP   //sentence processor, line processor
+class InputProcesser   
 {
 public:
 	static pair<string, string> split(string line)
@@ -16,7 +16,7 @@ public:
 		//get keyword from line
 		for (; i < line.size()&&line[i]!=':'; i++)
 		{
-			word += line[i];
+			word += (char)line[i];
 		}
 		//get definition, it is remaining characters from line
 		i++;

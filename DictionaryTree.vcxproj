@@ -65,7 +65,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="DictionaryTree.h" />
-    <ClInclude Include="SentenceProcessor.h" />
+    <ClInclude Include="InputProcessor.h" />
     <ClInclude Include="Trie.h" />
   </ItemGroup>
   <ItemGroup>

@@ -12,3 +12,25 @@ vector:   class vector trong std c++
 continue: tiep tuc vong lap
 break:    jump anywhere
 delete:   lenh xoa vung nho tren heap
+for:	  vong lap for
+while:    vong lap while 
+void:     gia tri tra ve cua mot ham khong can return
+int:      integer number
+float:    so thuc dau cham dong do chinh xac don
+double:   so thuc dau cham dong do chinh xac kep
+class:    khai bao class
+public:   muc truy cap public
+private:  muc truy cap trong class
+protected: muc truy cap cho class va lop con
+new:      cap phat vung nho dong
+using namespace: su dung mot khong gian ten nao do
+return: tra ve gia tri cua ham
+endif:    ket thuc chi thi dieu kien tien xu ly
+bool:     kieu luan li nhan gia tri dung hoac sai
+fstream:  kieu du lieu thao tac voi file
+virtal:   cai dat ham ao
+inline:   dat truoc ham inline trong any class
+const:    dat truoc so de noi voi trinh bien dich do la hang so khong the thay doi
+null:     day la gia tri 0x00000
+short:    kieu so nguyen 16 bits
+

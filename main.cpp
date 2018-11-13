@@ -3,11 +3,11 @@ using namespace std;
 int main()
 {
 	DictionaryTree dic;
-	string prefix="start";
+	string prefix="anyWordDifferExit";
 	while (prefix!="exit")
 	{
 		cout << "===================_TYPE_KEYWORD_(TYPE_exit_TO_CLOSE)_======================\n";
-		cout << "Tao moi may nhap: ";
+		cout << "May muon tim chu gi: ";
 		cin >> prefix;
 		if (prefix != "exit")
 		{

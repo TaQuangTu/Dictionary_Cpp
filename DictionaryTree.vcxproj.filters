@@ -26,7 +26,7 @@
     <ClInclude Include="DictionaryTree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SentenceProcessor.h">
+    <ClInclude Include="InputProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
